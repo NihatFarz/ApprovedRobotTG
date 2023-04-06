@@ -1,0 +1,36 @@
+{
+    "name": "ApprovedRobotTG",
+    "description": "Telegram üçün Kanal İstək qəbul edici botu, @FarzTeam tərəfindən.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "botzhub"
+    ],
+    "repository": "https://github.com/NihatFarz/ApprovedRobotTG",
+    "success_url": "https://t.me/FarzTeam",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Bot tokeni alın, onu @BotFather-dən əldə edin.",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis verilənlər bazası URL, redislabs.com saytından",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis verilənlər bazası parolu, redislabs.com saytından.",
+            "value": ""
+        },
+        "OWNERS": {
+            "description": "Bota sahib olan istifadəçilərin istifadəçi ID-si",
+            "value": "5933429523"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
